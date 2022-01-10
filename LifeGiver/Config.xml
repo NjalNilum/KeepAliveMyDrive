@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<ConfigPathes xmlns:xs="http://www.w3.org/2001/XMLSchema-instance"
+              xs:noNamespaceSchemaLocation="..\LifeGiver\ConfigPathes.xsd"  >
+
+  <!-- Specify file and cycle time in seconds. -->
+  <!-- FullPath:  Full path to the file to be created. -->
+  <!-- CycleTime: CycleTime in Seconds. That means every 't' seconds a single dot will be added to the file. -->
+  <PathAndTime FullPath="G:\void.txt" 
+               CycleTime="210"/>
+  <PathAndTime FullPath="I:\void.txt"
+               CycleTime="210"/>
+  <PathAndTime FullPath="K:\void.txt"
+               CycleTime="210"/>
+  <PathAndTime FullPath="L:\void.txt"
+               CycleTime="210"/>
+  <PathAndTime FullPath="M:\void.txt"
+               CycleTime="210"/>
+
+</ConfigPathes>

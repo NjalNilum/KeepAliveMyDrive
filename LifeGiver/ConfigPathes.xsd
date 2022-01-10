@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <!-- Definition of object -->
+  <xs:element name="ConfigPathes">
+    <xs:complexType>
+
+      <!-- Specify file and cycle time in seconds. -->
+      <!-- FullPath:  Full path to the file to be created. -->
+      <!-- CycleTime: CycleTime in Seconds. That means every 't' seconds a single dot will be added to the file. -->
+      <xs:sequence>
+        <xs:element name="PathAndTime"
+                    minOccurs="1"
+                    maxOccurs="27" >
+          <xs:complexType>
+            <xs:attribute name="FullPath"
+                          type="xs:string"
+                          use="required"/>
+
+            <xs:attribute name="CycleTime"
+                         type="xs:int"
+                         use="required"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+
+
+    </xs:complexType>
+  </xs:element>
+
+
+
+
+
+
+
+</xs:schema>
